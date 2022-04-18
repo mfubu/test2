@@ -1,14 +1,17 @@
 body
 {
-	/*
+	border: 10px dotted black;
 	background-color: rgba(24,35,76,0.8);
 	opacity: 1.0;	
 	background-image: url("p1image.jpg");
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-attachment: scroll;
-	*/
+	background-size: 70% 20%;
+	background-origin: border-box;
+	background-clip: content-box;
 
-	background: blue url("p1image.jpg") repeat-x scroll right top;
+
+	
 
 }
